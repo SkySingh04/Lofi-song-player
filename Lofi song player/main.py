@@ -48,4 +48,4 @@ def play_song(video_id):
     return render_template("player.html",video_link=video_link,video_title=video_title)
     
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run()
